@@ -26,6 +26,7 @@ public enum Currency: String, Codable, CaseIterable {
     case bif
     case bmd
     case bnd
+	case btn
     case bob
     case brl
     case bsd
@@ -51,6 +52,7 @@ public enum Currency: String, Codable, CaseIterable {
     case fjd
     case fkp
     case gbp
+	case ghs
     case gel
     case gip
     case gmd
@@ -67,12 +69,14 @@ public enum Currency: String, Codable, CaseIterable {
     case inr
     case isk
     case jmd
+	case jod
     case jpy
     case kes
     case kgs
     case khr
     case kmf
     case krw
+	case kwd
     case kyd
     case kzt
     case lak
@@ -100,6 +104,7 @@ public enum Currency: String, Codable, CaseIterable {
     case nok
     case npr
     case nzd
+	case omr
     case pab
     case pen
     case pgk
@@ -125,6 +130,7 @@ public enum Currency: String, Codable, CaseIterable {
     case szl
     case thb
     case tjs
+	case tnd
     case top
     case `try`
     case ttd
