@@ -21,6 +21,7 @@ public enum Currency: String, Codable, CaseIterable {
     case bam
     case bbd
     case bdt
+	case bhd
     case bgn
     case bif
     case bmd
