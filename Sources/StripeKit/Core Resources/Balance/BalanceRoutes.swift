@@ -29,4 +29,16 @@ public struct StripeBalanceRoutes: BalanceRoutes {
                                   path: balance,
                                   headers: headers)
     }
+    
+    public func retrieve(expand: [String]? = nil) async throws -> Balance {
+        var queryParams = ""
+        if let expand {
+            queryParams = ["expand": expand].queryParameters
+        }
+                
+        return try await apiHandler.send(method: .GET,
+                                         path: balance,
+                                         query: queryParams,
+                                         headers: headers)
+    }
 }
